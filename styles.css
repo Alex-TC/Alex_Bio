@@ -58,12 +58,16 @@ body {
   overflow: hidden;
 }
 
+
+
 #footer {
   background-color: white;
   padding: 50px;
   color: black;
   font-family: darker grotesque, sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #footer a {
@@ -71,10 +75,11 @@ body {
 
 }
 
-/* .col-3 img {
-  width:auto;
-  height: 110vh;
-} */
+.col-3 img {
+  width: 30vw;
+  height: 50vh;
+}
+
 
 @media(max-width:777px) {
   .topnav {
