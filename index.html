@@ -3,6 +3,7 @@
 <!-- only need 1 head -->
 <!-- used strapboot for columns -->
 <head>
+  <script scr="alex-web.js"></script>
   <title>Alex</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +24,7 @@
   <div class="topnav">
     <a href="#Bio">Bio</a>
     <a href="#Accomplishments">Accomplishments</a>
-    <a href="#Goal">Goal</a>
+    <a href="#Goals">Goals</a>
   </div>
 
 <!-- bootstrap container -->
@@ -37,14 +38,20 @@
       <img src="assets/alexmeetspope.jpg">
     </div>
 
-<!-- Middle column with text and portrait photo-->
+<!-- Middle column with text and portrait photo, too lazy to change everything to list form -->
     <div class="col-6">
       <h1>
         <strong>
           Alexandra Campos:
         </strong>
       </h1>
-      <img src="assets/alexkindacute.jpg">
+
+      <img id="myImage" src="assets/alexkindacute.jpg" style = >
+      <button onclick="document.getElementById('myImage').src='assets/alexAngel.jpg'">Make me cuter</button>
+      <!-- <img id="myImage" src="assets/alexAngel.jpg" style="width:100px"> -->
+      <button onclick="document.getElementById('myImage').src='assets/alexkindacute.jpg'">Make me cute</button>
+      <!-- <p id="demo">A Picture.</p> -->
+      <!-- <button type = "button" onclick = "myFunction()">Make me cuter</button> -->
 
       <h2 class="quote">
         “I couldn’t have made it this far without the help of my friends and family.”
@@ -57,7 +64,10 @@
         - Birthday: 12/04/01
       </p>
       <p>
-        - "Alex" is the meanest person you will meet
+        - Age: 17
+      </p>
+      <p>
+        - "Alex" is the meanest person you will meet, but nicest you'll get to know
       </p>
       <p>
         - Raised in Jersey City
@@ -66,9 +76,10 @@
         - Spanish and English bilingual
       </p>
       <p>
-        - Likes sleeping
+        - Likes: Helping others, playing video games, knitting, hiking, cycling, fishing, and volunteering for community events
       </p>
-
+      <p>
+        - Dislikes: Impoliteness, failure, giving up, and capitalism
       <!-- <img src="alex+jaden.jpg"> -->
 
       <h3 id="Accomplishments"> Accomplishments </h3>
@@ -86,7 +97,10 @@
         - Student Council (Vice President during Freshman and Sophomore year; President during Junior year)
       </p>
       <p>
-        - Jersey City Arts band
+        - Citywide Student Council (Served as Infinity Institute's representative during Sophomore and Junior year)
+      </p>
+      <p>
+        - Jersey City Arts band (First Tenor Saxophone)
       </p>
       <p>
         - Rutger's Premedical Honors Program
@@ -97,7 +111,10 @@
       <p>
         - CPR Certified
       </p>
-      <h3 id="Goal"> Goal </h3>
+      <p>
+        - Convinced the Jersey City Board of Education to not move Infinity Institute from its building
+      </p>
+      <h3 id="Goals"> Goals </h3>
       <p>
         - Someday attend Stanford/Caltech/USC for undergrad
       </p>
@@ -116,7 +133,7 @@
       <img src="assets/mytwojj.jpg">
       <img src="assets/omghekissedmyhand.jpg">
     </div>
-<!-- bottom of page with social media --> 
+<!-- bottom of page with social media -->
   </div>
   <div id="footer">
     <a href="https://www.instagram.com/alextc.1005/?hl=en">Instagram: @alextc.1005</a>
@@ -130,5 +147,3 @@
 
 </html>
 <!-- end of website -->
-
-<!-- <a href="https://www.youtube.com/watch?v=B-udfiFZcko">Go to FUN</a> -->
