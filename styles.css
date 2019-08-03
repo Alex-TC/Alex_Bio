@@ -55,6 +55,10 @@ body {
   padding: 0;
 }
 
+.alexGiraffe {
+  transform: translateX(-45px);
+}
+
  /* Background of column that is size 3, stuff inside the column does not flow past the column */
 .col-3 {
   background-color: white;
